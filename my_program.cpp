@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-#include <getch.h>
 #include <iostream>
 
 using namespace std;
