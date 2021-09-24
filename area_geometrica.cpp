@@ -6,7 +6,6 @@ using namespace std;
 
 int main() {
 
-	std:string vs_opcion = "";
 	int vi_opcion  = 1;
 	float vf_area  = 0;
 	bool vb_opcion = false;
@@ -19,7 +18,7 @@ int main() {
 	cout << "|   Programa para calcular el area de una figura geometrica   |\n";
 	cout << "|   Realizado por Harold Adrian Bolaños Rodriguez             |\n";
 	cout << "|   9/SEP 2021. Universidad Cooperativa de Colombia           |\n";
-	cout << "+-------------------------------------------------------------|\n";
+	cout << "+-------------------------------------------------------------+\n";
 	cout << "\n";
 
 	cout << "Seleccionar una opcion geometrica para calcular el area\n";
@@ -73,7 +72,7 @@ int main() {
             break;
 	}
 
-	cout << "La area es: " << vf_area << endl; 
+	cout << "La area es => " << vf_area << endl; 
 
 	return 0;
 }
