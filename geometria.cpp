@@ -18,7 +18,7 @@ int main() {
 	cout << "|   Programa para calcular el area de una figura geometrica   |\n";
 	cout << "|   Realizado por Harold Adrian Bolaños Rodriguez             |\n";
 	cout << "|   9/SEP  2021. Universidad Cooperativa de Colombia          |\n";
-	cout << "|   14/OCT 2021. Update, add comentary                        |\n";
+	cout << "|   14/OCT 2021. rename and add fragment code                 |\n";
 	cout << "+-------------------------------------------------------------+\n";
 	cout << "\n";
 
@@ -27,7 +27,10 @@ int main() {
 	cout << "Triangulo [2] \n";
 	cout << "Cuadrado  [3] \n";
 	cout << "[1] :";
-	cin >> vi_opcion;
+
+	cout << "Opcion por defecto = 1";
+	//cin >> vi_opcion;
+	vi_opcion = 1;
 
 	cout << "Usted ingreso: " << vi_opcion << endl;
 
@@ -47,7 +50,9 @@ int main() {
 	  case 1:
     	    // Circulo
 	    cout << "Ingrese el Radio del circulo : ";
-	    cin >> vi_radio;
+	    //cin >> vi_radio;
+	    vi_radio = 3;
+
 	    cout << "\n";
 	    vf_area = (vi_radio * vi_radio) * 3.14151692;
 	    break;
